@@ -1,0 +1,35 @@
+[
+  {
+    "language": "EN",
+    "label": [
+      { "name": "00", "value": "Transaction is on process" },
+      { "name": "MSIN", "value": "Requested add transaction fail" },
+      { "name": "MSUN", "value": "Requested edit transaction fail" },
+      { "name": "MSDN", "value": "Requested delete transaction fail" },
+      { "name": "M0IN", "value": "Requested save as draft fail" },
+      { "name": "MDIN", "value": "Requested delete draft fail" },
+      { "name": "MPIN", "value": "Requested approve fail" },
+      { "name": "MPUN", "value": "Requested approve fail" },
+      { "name": "PN", "value": "Approved fail" },
+      { "name": "JN", "value": "Rejected fail" },
+      { "name": "RN", "value": "Returned fail" },
+      { "name": "PY", "value": "Approved successfully" },
+      { "name": "JY", "value": "Rejected successfully" },
+      { "name": "RY", "value": "Returned successfully" },
+      { "name": "0Y", "value": "Saved as draft successfully" },
+      { "name": "0N", "value": "Saved as draft fail" },
+      { "name": "SY", "value": "Sent to approve successfully" },
+      { "name": "SN", "value": "Sent to approve fail" },
+      { "name": "SIY", "value": "Added transaction successfully" },
+      { "name": "SIN", "value": "Added transaction fail" },
+      { "name": "SUY", "value": "Edited transaction successfully" },
+      { "name": "SUN", "value": "Edited transaction fail" },
+      { "name": "SDY", "value": "Delete transaction successfully" },
+      { "name": "SDN", "value": "Delete transaction fail" },
+      { "name": "YN", "value": "Rejected fail" },
+      { "name": "DY", "value": "Deleted draft successfully" },
+      { "name": "DN", "value": "Deleted draft fail" },
+      { "name": "T999", "value": "Request timed out" }
+    ]
+  }
+]

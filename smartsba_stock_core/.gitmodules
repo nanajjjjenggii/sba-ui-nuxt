@@ -1,0 +1,44 @@
+[submodule "stditem"]
+	path = src/components/stditem
+	url = http://gitlab.freewillgroup.com/pr/smart-fresh/smart-sba-develop/ui-nuxt/share/stditem.git
+	branch = master
+[submodule "sbse001"]
+	path = src/pages/SBSE001
+	url = http://gitlab.freewillgroup.com/pr/smart-fresh/smart-sba-develop/ui-nuxt/stock/sbse001.git
+	branch = master
+[submodule "sbse002"]
+	path = src/pages/SBSE002
+	url = http://gitlab.freewillgroup.com/pr/smart-fresh/smart-sba-develop/ui-nuxt/stock/sbse002.git
+	branch = master
+[submodule "sbse003"]
+	path = src/pages/SBSE003
+	url = http://gitlab.freewillgroup.com/pr/smart-fresh/smart-sba-develop/ui-nuxt/stock/sbse003.git
+	branch = master
+[submodule "sbse005"]
+	path = src/pages/SBSE005
+	url = http://gitlab.freewillgroup.com/pr/smart-fresh/smart-sba-develop/ui-nuxt/stock/sbse005.git
+	branch = master
+[submodule "sbse006"]
+	path = src/pages/SBSE006
+	url = http://gitlab.freewillgroup.com/pr/smart-fresh/smart-sba-develop/ui-nuxt/stock/sbse006.git
+	branch = master
+[submodule "sbse007"]
+	path = src/pages/SBSE007
+	url = http://gitlab.freewillgroup.com/pr/smart-fresh/smart-sba-develop/ui-nuxt/stock/sbse007.git
+	branch = master
+[submodule "sbse07f"]
+	path = src/pages/SBSE07F
+	url = http://gitlab.freewillgroup.com/pr/smart-fresh/smart-sba-develop/ui-nuxt/stock/sbse07f.git
+	branch = master
+[submodule "sbse602"]
+	path = src/pages/SBSE602
+	url = http://gitlab.freewillgroup.com/pr/smart-fresh/smart-sba-develop/ui-nuxt/stock/sbse602.git
+	branch = master
+[submodule "sbse605"]
+	path = src/pages/SBSE605
+	url = http://gitlab.freewillgroup.com/pr/smart-fresh/smart-sba-develop/ui-nuxt/stock/sbse605.git
+	branch = master
+[submodule "sbse198"]
+	path = src/pages/SBSE198
+	url = http://gitlab.freewillgroup.com/pr/smart-fresh/smart-sba-develop/ui-nuxt/stock/sbse198.git
+	branch = master

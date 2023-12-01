@@ -1,0 +1,13 @@
+@font-face {
+  font-family: Prompt;
+  font-weight: normal;
+  font-style: normal;
+  src: url('../fonts/Prompt-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: Prompt;
+  font-weight: normal;
+  font-style: italic;
+  src: url('../fonts/Prompt-Italic.ttf') format('truetype');
+}

@@ -1,0 +1,3 @@
+.nuxt
+pnpm-lock.yaml
+src/public/js/*

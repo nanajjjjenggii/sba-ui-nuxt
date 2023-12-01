@@ -1,0 +1,105 @@
+@use 'mdb-vue-ui-kit/css/mdb.min.css' as mdb;
+// @use "~/assets/css/kendo-theme-default-all.css" as kendo;
+@use '@progress/kendo-theme-default/dist/all.css' as kendo;
+
+@use '~/assets/css/sba-kendo-styles';
+// @import 'mdb-ui-kit/css/mdb.min.css';
+
+@use 'material-icons/iconfont/material-icons.css';
+@use '~/assets/css/glyphicon-bs3.min.css';
+@use '~/assets/fontawesome-5.15.4/css/all.min.css' as faw;
+@use '~/assets/css/sba-styles.css';
+
+.form-label {
+  margin-bottom: 0.25rem;
+  font-weight: 700; // fw-bold
+  color: #000000;
+  font-size: 15px;
+  &.require::after {
+    content: '*';
+    color: #db524c;
+    font-weight: 400;
+    padding-left: 5px;
+  }
+}
+.header-label {
+  color: #375777 !important;
+  font-weight: bolder !important;
+}
+
+.title-row {
+  margin-bottom: 1rem !important;
+  box-shadow: 0 2px 0 0 #efefef;
+}
+
+// Input Fields
+// #5bbc9d
+:not(.k-input-solid).form-control {
+  &:hover {
+    border-color: var(--border-active-color);
+    box-shadow: none;
+  }
+  &:focus {
+    border-color: var(--border-active-color);
+    box-shadow: 0 0.55px 0 0 var(--border-active-color),
+      0 4px 4px -4px var(--border-active-color);
+  }
+}
+
+.btn {
+  --mdb-btn-padding-top: 0.5rem;
+  min-width: 95.25px;
+  font-weight: 600;
+}
+
+.btn.btn-xs {
+  --mdb-btn-padding-top: 0.35rem;
+  --mdb-btn-padding-bottom: 0.35rem;
+  --mdb-btn-padding-x: 0.85rem;
+}
+
+.btn-grey {
+  --mdb-btn-bg: #666666;
+  // --mdb-btn-bg: #e4a11b;
+  --mdb-btn-color: #fff;
+  --mdb-btn-box-shadow: 0 4px 9px -4px #666666;
+  --mdb-btn-hover-bg: #4f4f4f;
+  --mdb-btn-hover-color: #fff;
+  --mdb-btn-focus-bg: #4f4f4f;
+  --mdb-btn-focus-color: #fff;
+  --mdb-btn-active-bg: #424242;
+  --mdb-btn-active-color: #fff;
+}
+
+.text-darkblue {
+  color: var(--darkblue-color) !important;
+}
+
+.form-control:not(.k-input-solid) {
+  // line-height: 1.4285714286;
+  line-height: 1.2641;
+  font-size: 13px;
+}
+.form-control.k-input-solid {
+  line-height: 1.5699;
+}
+.form-control-plaintext {
+  padding-left: 0;
+  pointer-events: none;
+}
+
+body.modal-open > .k-animation-container {
+  z-index: calc(1056) !important;
+}
+
+.line-readonly {
+  line-height: 1.6899 !important;
+}
+
+.input-readonly {
+  padding-inline-start: 0px !important;
+}
+
+.radio-checkbox-readonly {
+  pointer-events: none;
+}

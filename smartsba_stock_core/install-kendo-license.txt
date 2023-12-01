@@ -1,0 +1,6 @@
+1. Copy the license key file (kendo-ui-license.txt) to the root folder of your application. This is the folder that contains the package.json file.
+    > Alternatively, copy the contents of the file to the KENDO_UI_LICENSE environment variable.
+2. Install @progress/kendo-licensing as a project dependency by running npm install --save @progress/kendo-licensing or yarn add @progress/kendo-licensing.
+3. Run 'npx kendo-ui-license activate' or 'yarn run kendo-ui-license' activate in the console.
+
+Ref.https://www.telerik.com/kendo-vue-ui/components/my-license/
